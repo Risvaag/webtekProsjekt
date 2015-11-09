@@ -1,0 +1,53 @@
+body {
+	margin-top: 120px;
+}
+h2 {
+	text-align: center;
+}
+
+#questionbox {
+	position: relative;
+	top: 40px;
+	left: 350px;
+	border: solid black 2px;
+	width: 350px;
+	height: 400px;
+
+
+}
+
+#questionmark {
+	position: absolute;
+	top: 180px;
+	left: 725px;
+	margin-top: 10px;
+	height: 350px;
+	width: 350px;
+}
+
+
+
+.q {
+	font-size: 10pt;
+	text-align: center;
+}
+
+ul {
+	position: relative;
+	font-size: 12pt;
+	
+}
+
+li {
+	margin-left: 20px;
+}
+
+
+.frame {
+	position: relative;
+	top:50px;
+}
+
+.themeqanda{
+	font-family: 
+}
