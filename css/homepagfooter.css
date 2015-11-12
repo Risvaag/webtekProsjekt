@@ -1,0 +1,29 @@
+
+
+#footer_items li {
+  margin-right: 2px;
+  margin-left: 2px;
+  display: inline;
+}
+
+#footer_items img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer_items ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer_items img {
+  vertical-align: middle;
+}
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+  border-top: 5px solid #00a087;
+}
