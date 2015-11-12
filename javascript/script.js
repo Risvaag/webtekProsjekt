@@ -1,44 +1,77 @@
 addEventListener("load", function() {
 	setup();
-	document.getElementById("addTaskButton").addEventListener("click", addTask);
+	document.getElementById("TerminatorButton").addEventListener("click", TerminatorShowMore);
+	document.getElementById("VacutronButton").addEventListener("click", VacutronShowMore);
+	document.getElementById("SuckmasterButton").addEventListener("click", SuckmasterShowMore);
 });
 
-var base = element.getElementById("Terminator").innerHTML;
+var TerminatorBase = "<p>nope</p>";
+var VacutronBase = "<p> yeah!</p>";
+var SuckmasterBase = "<p> I don't belong here</p>";
 
 function setup()
 {
-	var button = document.createElement("BUTTON");
-	button.id = "addTaskButton";
-	var text = document.createTextNode("show more");
-	button.appendChild(text);
-	document.getElementById("Terminator").appendChild(button);
+	TerminatorBase = document.getElementById("Terminator").innerHTML;
+	VacutronBase = document.getElementById("Vacutron").innerHTML;
+	SuckmasterBase = document.getElementById("Suckmaster").innerHTML;
 }
 
-function reset()
+function reset1()
 {
-	if(base != undefined)
+	if(TerminatorBase != undefined)
 	{
-		document.getElementById("Terminator").innerHTML = base;
+		document.getElementById("Terminator").innerHTML = TerminatorBase;
 	}
 	else{
-		document.getElementById("Terminator").innerHTML = null;
+		document.getElementById("Terminator").innerHTML = "";
 	}
-	var button = document.createElement("BUTTON");
-	button.id = "addTaskButton";
-	var text = document.createTextNode("show more");
-	button.appendChild(text);
-	document.getElementById("Terminator").appendChild(button);
-	document.getElementById("addTaskButton").addEventListener("click", addTask);
+	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>show more</button>";
+	document.getElementById("TerminatorButton").addEventListener("click", TerminatorShowMore);
 }
 
-function addTask()
+function reset2()
 {
-	//<button id="addTaskButton" type="button">Show more</button>
-	var text2 = document.createTextNode("show less");
-	var button2 = document.createElement("BUTTON");
-	button2.id = "showLessButton";
-	button2.appendChild(text2);
-	document.getElementById("Terminator").replaceChild(button2, document.getElementById("addTaskButton"));
-	document.getElementById("Terminator").innerHTML += " hello";
-	document.getElementById("showLessButton").addEventListener("click", reset);
+	if(VacutronBase != undefined)
+	{
+		document.getElementById("Vacutron").innerHTML = VacutronBase;
+	}
+	else{
+		document.getElementById("Vacutron").innerHTML = "";
+	}
+	document.getElementById("button2").innerHTML = "<button id=VacutronButton>show more</button>";
+	document.getElementById("VacutronButton").addEventListener("click", VacutronShowMore);
+}
+
+function reset3()
+{
+	if(SuckmasterBase != undefined)
+	{
+		document.getElementById("Suckmaster").innerHTML = SuckmasterBase;
+	}
+	else{
+		document.getElementById("Suckmaster").innerHTML = "";
+	}
+	document.getElementById("button3").innerHTML = "<button id=SuckmasterButton>show more</button>";
+	document.getElementById("SuckmasterButton").addEventListener("click", SuckmasterShowMore);
+}
+
+function TerminatorShowMore()
+{
+	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>show less</button>";
+	document.getElementById("Terminator").innerHTML += "<p>hello</p>";
+	document.getElementById("TerminatorButton").addEventListener("click", reset1);
+}
+
+function VacutronShowMore()
+{
+	document.getElementById("button2").innerHTML = "<button id=VacutronButton>show less</button>";
+	document.getElementById("Vacutron").innerHTML += "<p>hello again</p>";
+	document.getElementById("VacutronButton").addEventListener("click", reset2);
+}
+
+function SuckmasterShowMore()
+{
+	document.getElementById("button3").innerHTML = "<button id=SuckmasterButton>show less</button>";
+	document.getElementById("Suckmaster").innerHTML += "<p>hello again</p>";
+	document.getElementById("SuckmasterButton").addEventListener("click", reset3);
 }
