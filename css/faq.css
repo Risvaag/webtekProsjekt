@@ -10,16 +10,16 @@ h2 {
 	top: 40px;
 	left: 350px;
 	border: solid black 2px;
-	width: 350px;
-	height: 400px;
+	width: 365px;
+	height: 500px;
 
 
 }
 
 #questionmark {
 	position: absolute;
-	top: 180px;
-	left: 725px;
+	top: 275px;
+	left: 750px;
 	margin-top: 10px;
 	height: 350px;
 	width: 350px;
@@ -49,5 +49,25 @@ li {
 }
 
 .themeqanda{
-	font-family: 
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 110px;
+	margin-top: -110px;
+}
+
+.questions {
+	font-family: Georgia;
+	font-size: 12pt;
+	padding-top: 110px;
+	margin-top: -110px;
+}
+
+.answers {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-style: italic;
+	padding-top: 110px;
+	margin-top: -110px;
 }
