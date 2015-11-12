@@ -49,5 +49,13 @@ li {
 }
 
 .themeqanda{
-	font-family: 
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.questions {
+	font-family: Georgia;
+	font-size: 12pt;
 }
