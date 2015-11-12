@@ -1,17 +1,13 @@
 addEventListener("load", function() {
 	setup();
-	document.getElementById("addTaskButton").addEventListener("click", addTask);
+	document.getElementById("showMoreButton").addEventListener("click", showMore);
 });
 
-var base = element.getElementById("Terminator").innerHTML;
+var base = "<p>nope</p>";
 
 function setup()
 {
-	var button = document.createElement("BUTTON");
-	button.id = "addTaskButton";
-	var text = document.createTextNode("show more");
-	button.appendChild(text);
-	document.getElementById("Terminator").appendChild(button);
+	base = document.getElementById("Terminator").innerHTML;
 }
 
 function reset()
@@ -23,22 +19,15 @@ function reset()
 	else{
 		document.getElementById("Terminator").innerHTML = null;
 	}
-	var button = document.createElement("BUTTON");
-	button.id = "addTaskButton";
-	var text = document.createTextNode("show more");
-	button.appendChild(text);
-	document.getElementById("Terminator").appendChild(button);
-	document.getElementById("addTaskButton").addEventListener("click", addTask);
+	document.getElementById("button1").innerHTML = "<button id=showMoreButton>Show more</button>";
+	document.getElementById("showMoreButton").addEventListener("click", showMore);
 }
 
-function addTask()
+function showMore()
 {
-	//<button id="addTaskButton" type="button">Show more</button>
-	var text2 = document.createTextNode("show less");
-	var button2 = document.createElement("BUTTON");
-	button2.id = "showLessButton";
-	button2.appendChild(text2);
-	document.getElementById("Terminator").replaceChild(button2, document.getElementById("addTaskButton"));
-	document.getElementById("Terminator").innerHTML += " hello";
+	document.getElementById("button1").innerHTML = "<button id=showLessButton>Show less</button>";
+	document.getElementById("Terminator").innerHTML += "<p>hello</p>";
+	var text3 = document.createTextNode("hello");
+	//document.getElementById("Terminator").innerHTML.insertBefore(text3,addTaskButton);
 	document.getElementById("showLessButton").addEventListener("click", reset);
 }
