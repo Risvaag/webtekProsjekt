@@ -20,9 +20,18 @@ div #sectiongroup{
   width: 20%;
 }
 
-
-
-footer {
-  text-align: center;
-  border-top: 5px solid #00a087;
+section{
+  text-align: left;
 }
+
+
+#manuals{
+  position: absolute;
+  left:500px;
+  top: 250px;
+  margin-right: 300px;
+  width: 400px;
+}
+
+
+
