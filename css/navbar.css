@@ -58,9 +58,9 @@
 
 .menu_items li ul {
   display: none;
-    background-color: #00a087;
+  background-color: #00a087;
 }
 
 .menu_items a:hover{
-  font-weight: bold;
+  text-shadow: 1px 1px grey;
 }
