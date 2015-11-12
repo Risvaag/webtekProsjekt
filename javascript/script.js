@@ -7,13 +7,13 @@ addEventListener("load", function() {
 
 var TerminatorBase = "<p>nope</p>";
 var VacutronBase = "<p> yeah!</p>";
-var SuckmasterBase = "<p>I don't belong here</p>";
+var SuckmasterBase = "<p> I don't belong here</p>";
 
 function setup()
 {
 	TerminatorBase = document.getElementById("Terminator").innerHTML;
 	VacutronBase = document.getElementById("Vacutron").innerHTML;
-	//SuckmasterBase = document.getElementById("Scukmaster").innerHTML;
+	SuckmasterBase = document.getElementById("Suckmaster").innerHTML;
 }
 
 function reset1()
@@ -23,7 +23,7 @@ function reset1()
 		document.getElementById("Terminator").innerHTML = TerminatorBase;
 	}
 	else{
-		document.getElementById("Terminator").innerHTML = null;
+		document.getElementById("Terminator").innerHTML = "";
 	}
 	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>show more</button>";
 	document.getElementById("TerminatorButton").addEventListener("click", TerminatorShowMore);
@@ -72,6 +72,6 @@ function VacutronShowMore()
 function SuckmasterShowMore()
 {
 	document.getElementById("button3").innerHTML = "<button id=SuckmasterButton>show less</button>";
-	document.getElementById("Suckmaster").innerHTML += "<p>Hello world</p>";
+	document.getElementById("Suckmaster").innerHTML += "<p>hello again</p>";
 	document.getElementById("SuckmasterButton").addEventListener("click", reset3);
 }
