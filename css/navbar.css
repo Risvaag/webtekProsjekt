@@ -27,8 +27,8 @@
 
   font-size: 150%;
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .menu {
@@ -36,7 +36,6 @@
 	text-align:center;
 	height: 50px;
 	margin-top: 40px;
-
 }
 
 .menu_items img {
@@ -48,19 +47,33 @@
 .menu_items a {
   text-decoration: none;
   font-family:Calibri;
+  color: black;
+  display: list-item;
+  list-style-type: none;
 }
 
 .menu_items li ul li {
   font-size: 90%;
   display: table;
-
+  text-indent: 20px;
+  text-align: left;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
 }
 
 .menu_items li ul {
   display: none;
   background-color: #00a087;
+  width: 130px;
 }
 
-.menu_items a:hover{
+.menu_items li:hover{
   text-shadow: 1px 1px grey;
+}
+
+.menu_items li ul li:hover {
+  background-color: #00b498;
 }
