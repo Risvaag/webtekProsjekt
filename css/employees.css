@@ -14,7 +14,7 @@ body{
 }
 
 
-#manager{
+.manager{
 	text-align: left;
 	width:25%; 
 	display:inline-block;
@@ -23,39 +23,39 @@ body{
 
 }
 
-#Manager{
+.Manager{
 	text-align: middle;
 	 width:60%;  
 	 display: inline-block;
 
 }
-#Name{
+.Name{
 	text-align: left;
 	width:30%; 
 	display:inline-block;
 	font-weight: bold;
 }
 
-#Names{
-	text-align: right;
+Names{
+	text-align: middle;
 	 width:30%;  
 	 display: inline-block;
 }
 
-#Title{
+.Title{
 	text-align: left;
 	width:30%; 
 	display:inline-block;
 	font-weight: bold;
 }
 
-#Titles{
-	text-align: right;
+Titles{
+	text-align: middle;
 	 width:30%;  
 	 display: inline-block;
 }
 
-#WorkDutie{
+.WorkDutie{
 	text-align: left;
 	width:30%; 
 	display:inline-block;
@@ -63,8 +63,8 @@ body{
 
 }
 
-#WorkDuties{
-	text-align: right;
+WorkDuties{
+	text-align: middle;
 	 width:30%;  
 	 display: inline-block;
 
