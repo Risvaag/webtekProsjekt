@@ -2,11 +2,7 @@ addEventListener("pageshow", function(){
 	setup();
 	document.getElementById("sup_dropfrom").addEventListener("mouseover", function(){ showMenu(1); });
 	document.getElementById("sup_dropfrom").addEventListener("mouseout", function(){ hideMenu(1); });
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> 8a462ad075bcfcc9ae38b8d398efcdede4a7ecff
 	document.getElementById("about_dropfrom").addEventListener("mouseover", function(){ showMenu(2); });
 	document.getElementById("about_dropfrom").addEventListener("mouseout", function(){ hideMenu(2); });
 });
