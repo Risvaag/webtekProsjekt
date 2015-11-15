@@ -1,3 +1,11 @@
+
+//FILE NAME: homepage.js
+//WRITTEN BY: Andreas Williams
+//WHEN: September 2015
+//PURPOSE: read more and show less for the articles on the front page
+
+//JavaScript for the read more button on the homepage
+
 addEventListener("load", function() {
 	setup();
 	document.getElementById("news1button").addEventListener("click", News1ShowMore);
@@ -6,6 +14,7 @@ addEventListener("load", function() {
 	document.getElementById("news4button").addEventListener("click", News4ShowMore);
 });
 
+//sets the preview text for the articles
 var news1base = "As you may already know, we make the best vacuum cleaners in the world. Our new model, VacuumExtre2000HD, is THE best in the world.";
 var news2base = "At MegaSuper INC we take care of our employees. Literally. If a employee call in sick, we send a nurse to feed him soup.";
 var news3base = "- It's fire, said Sup Er K. Ewl in an interview with MTV. Sup Er K. Ewl's mixtape 'Meaner than a vacuum cleaner' will feature one track and has been in development for the last 4 days."
@@ -18,6 +27,8 @@ function setup()
 	var news3base = document.getElementById("news3").innerHTML;
 	var news3base = document.getElementById("news4").innerHTML;
 }
+
+//sets the articles back to preview state
 
 function reset1()
 {
@@ -70,6 +81,9 @@ function reset4()
 	document.getElementById("news4buttonspot").innerHTML = "<button id=news4button>Read more</button>";
 	document.getElementById("news4button").addEventListener("click", News4ShowMore);
 }
+
+//shows rest of the articles
+
 
 function News1ShowMore()
 {
