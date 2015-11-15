@@ -17,3 +17,12 @@ h3, p{
 	top: 220px;
 	width: 200px;
 }
+
+form{
+  font-family: inherit;
+  text-align: left;
+}
+
+input.button{
+  vertical-align: middle;
+}

@@ -6,20 +6,7 @@
 <head>
 	<title>Support</title>
 </head>
-<header>
-	<nav class="fixed-nav-bar">
-        <div id="menu" class="menu">
-          <ul class="menu_items">
-            <li id="logo"><img src="Images/logo.jpg" alt="logo"></li>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<div id="navbarslot"></div>
 <body>
 
 <img src="Images/robotcleaner.jpg" id="robotcleaner" alt="robotcleaner">
@@ -44,10 +31,18 @@
 
 <p>If you have any more questions, you can e-mail them to support@msinc.com, or submit your comments in the box below. We will get back to you as soon as possible.</p>
 
-<textarea rows="20" cols="70" name="questions" form="userform"></textarea>
-<br>
+<form action="#" id="commentform">
+	<label>Name:</label><br>
+	<input type="text" name="username" size="20" maxlength="40" required><br>
+	<label>E-mail:</label><br> 
+	<input type="email" name="useremail" size="20" maxlength="20" required><br>
+	<label>Questions: </label><br>
+	<textarea rows="20" cols="70" name="questions" form="commentform" required></textarea><br>
+	<input type="submit" id="button">
+</form>
 
-<button>Submit</button>
+
+
 
 </body>
 </html>
