@@ -11,8 +11,6 @@ var SuckmasterBase = "<p> I don't belong here</p>";
 
 function setup()
 {
-	var navbar = '<nav class="fixed-nav-bar">&#10;<div id="menu" class="menu">&#10;<ul class="menu_items">&#10;<li id="logo"><img src="Images/logo.jpg" alt="logo"></li>&#10;<li><a href="homepage.html">Home</a></li>&#10;<li><a href="products.html">Products</a></li>&#10;<li><a href="contact.html">Contact</a></li>&#10;<li><a href="support.html">Support</a></li>&#10;<li><a href="about.html">About</a></li>&#10;</ul>&#10;</div>&#10;</nav>'
-	document.getElementById("navbarslot").innerHTML = navbar;
 	TerminatorBase = document.getElementById("Terminator").innerHTML;
 	VacutronBase = document.getElementById("Vacutron").innerHTML;
 	SuckmasterBase = document.getElementById("Suckmaster").innerHTML;
