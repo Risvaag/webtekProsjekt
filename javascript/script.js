@@ -11,6 +11,8 @@ var SuckmasterBase = "<p> I don't belong here</p>";
 
 function setup()
 {
+	var navbar = '<nav class="fixed-nav-bar">&#10;<div id="menu" class="menu">&#10;<ul class="menu_items">&#10;<li id="logo"><img src="Images/logo.jpg" alt="logo"></li>&#10;<li><a href="homepage.html">Home</a></li>&#10;<li><a href="products.html">Products</a></li>&#10;<li><a href="contact.html">Contact</a></li>&#10;<li><a href="support.html">Support</a></li>&#10;<li><a href="about.html">About</a></li>&#10;</ul>&#10;</div>&#10;</nav>'
+	document.getElementById("navbarslot").innerHTML = navbar;
 	TerminatorBase = document.getElementById("Terminator").innerHTML;
 	VacutronBase = document.getElementById("Vacutron").innerHTML;
 	SuckmasterBase = document.getElementById("Suckmaster").innerHTML;
@@ -58,20 +60,21 @@ function reset3()
 function TerminatorShowMore()
 {
 	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>show less</button>";
-	document.getElementById("Terminator").innerHTML += "<p>hello</p>";
+	var input = "<img id='derpVacuum' src='images/shittyVacuum.jpg' alt='The terminator in all it&#39;s glory'><p>"+" The terminator uses state of the art technology to always find it's way through your home with no issues. It's highly advanced sensors makes it able to adapt to most any challenge on the fly and it's wide arange of actuators ensures it's equiped to deal with anything it may encounter </p>"
+	document.getElementById("Terminator").innerHTML += input;
 	document.getElementById("TerminatorButton").addEventListener("click", reset1);
 }
 
 function VacutronShowMore()
 {
 	document.getElementById("button2").innerHTML = "<button id=VacutronButton>show less</button>";
-	document.getElementById("Vacutron").innerHTML += "<p>hello again</p>";
+	document.getElementById("Vacutron").innerHTML += "While cheaper and less advanced than the terminator the vacutron remains an impressive accomplishment within the field of artificial inteligence. It's sensors and actuators are easily capable of identifying and overcoming most obstacles it may encounter and it's complex dust detection algorithm ensures it will always clean out every last spec of dust in your house.";
 	document.getElementById("VacutronButton").addEventListener("click", reset2);
 }
 
 function SuckmasterShowMore()
 {
 	document.getElementById("button3").innerHTML = "<button id=SuckmasterButton>show less</button>";
-	document.getElementById("Suckmaster").innerHTML += "<p>hello again</p>";
+	document.getElementById("Suckmaster").innerHTML += "Pretty much as effective as straping a vacuumcleaner to your dog and hoping it will clean your home but you get what you pay for. While it has issues dealing with chairs, walls and other obstacles it can on ocation sufice if the area you seek to clean is flat and contains nothing at all at floor height.";
 	document.getElementById("SuckmasterButton").addEventListener("click", reset3);
 }

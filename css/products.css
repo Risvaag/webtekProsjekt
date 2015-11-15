@@ -27,7 +27,7 @@ h3, h4{
 }
 
 body{
-  width: 800px;
+  width: 70%;
   margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -35,6 +35,18 @@ body{
   text-align: center;
 }
 
-#derpVacuum{
-	float: right;
+#Terminator, #Suckmaster, #Vacutron{
+float: left;
+width: 600px;
+text-align: left;
+position: relative;
+}
+
+button{
+	position: relative;
+	float: left;
+	background-color:transparent;
+	cursor: pointer;
+	width: 100px;
+	height: 25px;
 }
