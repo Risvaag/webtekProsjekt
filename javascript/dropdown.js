@@ -25,7 +25,6 @@ function setup()
 function addFooter()
 {
 	var footer = document.createElement("FOOTER");
-	var y = document.createElement("P");
 	var z = document.createTextNode("MegaSuper Industries Incorporated | contact@msinc.com | Lade Alle 15, 7041 Trondheim</p>");
 	var twitter = document.createElement("a");
 	var facebook = document.createElement("a");
