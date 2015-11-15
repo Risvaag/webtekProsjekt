@@ -21,8 +21,10 @@ h3, p{
 form{
   font-family: inherit;
   text-align: left;
+  width: 400px;
 }
 
-input.button{
-  vertical-align: middle;
+input #button{
+  text-align: middle;
 }
+
