@@ -6,9 +6,16 @@
 		<link rel="stylesheet" href="css/navbar.css">
         <script src="javascript/dropdown.js"></script>
 		<title>Contact</title>
+        <script>
+        var map = document.getElementById("manphone");
+        console.log(map);
+        addEventListener("load", function() {
+            map.src = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJo1W2ewQxbUYRsn6_UKIiuYM&key=AIzaSyC6b7Z1aOWrAIKe3WSwKvlkAvWbVyxKtR8";
+        });
+        </script>
 	</head>
-	<div id="navbarslot">
-    </div>
+
+	<div id="navbarslot"></div>
 
     <body>
     	<h1>Contact Information</h1>
@@ -22,9 +29,9 @@
     	<div id="manphone">
     		<img src="Images/manphone.png" alt="man on phone">
     	</div>
-    	<section id="map">
+    	<section id="mapview">
     		<h3>Where to find us</h3>
-    		<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJo1W2ewQxbUYRsn6_UKIiuYM&key=AIzaSyC6b7Z1aOWrAIKe3WSwKvlkAvWbVyxKtR8" allowfullscreen></iframe>
+    		<iframe id="map" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     	</section>
 
     	<footer>
@@ -37,6 +44,3 @@
 		    </ul>
 		</footer>
     </body>
-
-	
-
