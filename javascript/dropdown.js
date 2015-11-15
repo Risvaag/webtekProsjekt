@@ -1,4 +1,4 @@
-addEventListener("load", function(){
+addEventListener("pageshow", function(){
 	setup();
 	document.getElementById("sup_dropfrom").addEventListener("mouseover", function(){ showMenu(1); });
 	document.getElementById("sup_dropfrom").addEventListener("mouseout", function(){ hideMenu(1); });
