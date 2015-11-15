@@ -5,7 +5,7 @@ body img{
 
   }
 
-#main{
+.main{
   float: left;
   width: 500px;
   text-align: left;
@@ -16,7 +16,6 @@ body img{
   padding: 3px;
   overflow: hidden;
 }
-
 
 
 h3, h4{
