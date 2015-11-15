@@ -1,6 +1,10 @@
 body {
 	margin-top: 120px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 h1 {
 	text-align: center;
 }
@@ -8,7 +12,7 @@ h1 {
 #questionbox {
 	position: relative;
 	margin-top: 40px;
-	margin-left: 350px;
+	margin-left: 0px;
 	border: solid black 2px;
 	width: 365px;
 	height: 500px;
@@ -32,13 +36,7 @@ h1 {
 	text-align: center;
 }
 
-ul {
-	position: relative;
-	font-size: 12pt;
-	
-}
-
-li {
+#questionbox li {
 	margin-left: 20px;
 }
 
