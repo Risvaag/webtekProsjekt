@@ -3,11 +3,12 @@ body {
 	
 }
 
-h2 {
+h1 {
 	position: relative;
-	font-family: Georgia;
-	text-align: center;
+	
 }
+
+
 
 .buttonspots {
 	margin-bottom:10px;
@@ -84,9 +85,6 @@ h2 {
 
 #superkewltekst {
 	position: absolute;
-	font-family: Georgia;
-	font-size: 9pt;
-	font-weight: italic;
 	width: 200px;
 	height: auto;
 	right: 800px;
@@ -97,9 +95,6 @@ h2 {
 
 #producttekst {
 	position: absolute;
-	font-family: Georgia;
-	font-size: 9pt;
-	font-weight: italic;
 	width: 200px;
 	height: auto;
 	left: 775px;

@@ -1,0 +1,22 @@
+h1 {
+	font-family: Georgia;
+	font-size: 20pt;
+	text-align: center;
+}
+
+h3 {
+	font-size: 14pt;
+	font-family: Georgia;
+
+}
+
+p {
+	font-family: Georgia;
+	font-size: 11pt;	
+}
+
+.bildetekst {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: italic;
+}
