@@ -32,13 +32,7 @@ h1 {
 	text-align: center;
 }
 
-ul {
-	position: relative;
-	font-size: 12pt;
-	
-}
-
-li {
+#questionbox li {
 	margin-left: 20px;
 }
 
