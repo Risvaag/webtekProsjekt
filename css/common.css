@@ -4,20 +4,20 @@ WRITTEN BY: Andreas Williams
 WHEN: September 2015
 PURPOSE: stylesheet for the text and headers in general
 */
-h1 {
+
+body {
 	font-family: Georgia;
+}
+h1 {
 	font-size: 20pt;
 	text-align: center;
 }
 
 h3 {
 	font-size: 14pt;
-	font-family: Georgia;
-
 }
 
 p {
-	font-family: Georgia;
 	font-size: 11pt;	
 }
 
