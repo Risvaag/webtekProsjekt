@@ -2,8 +2,6 @@ addEventListener("pageshow", function(){
 	setup();
 	document.getElementById("sup_dropfrom").addEventListener("mouseover", function(){ showMenu(1); });
 	document.getElementById("sup_dropfrom").addEventListener("mouseout", function(){ hideMenu(1); });
-	
-	document.
 
 	document.getElementById("about_dropfrom").addEventListener("mouseover", function(){ showMenu(2); });
 	document.getElementById("about_dropfrom").addEventListener("mouseout", function(){ hideMenu(2); });
