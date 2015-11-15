@@ -24,7 +24,7 @@ function setup()
 
 function addFooter()
 {
-	var x = document.createElement("FOOTER");
+	var footer = document.createElement("FOOTER");
 	var y = document.createElement("P");
 	var z = document.createTextNode("MegaSuper Industries Incorporated | contact@msinc.com | Lade Alle 15, 7041 Trondheim</p>");
 	var twitter = document.createElement("a");
@@ -40,12 +40,12 @@ function addFooter()
 	img2.alt ="facebook";
 	img2.setAttribute("class", "footerimg");
 	y.appendChild(z);
-	x.appendChild(y);
+	footer.appendChild(y);
 	twitter.appendChild(img1);
 	facebook.appendChild(img2);
-	document.body.appendChild(x);
-	document.body.appendChild(twitter);
-	document.body.appendChild(facebook);
+	footer.appendChild(twitter);
+	footer.appendChild(facebook);
+	document.body.appendChild(footer);
 }
 
 
