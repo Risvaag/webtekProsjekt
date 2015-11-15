@@ -21,10 +21,8 @@ h1 {
 }
 
 #questionmark {
-	position: absolute;
-	top: 275px;
-	left: 750px;
-	margin-top: 10px;
+	float: right;
+	margin-top: -450px;
 	height: 350px;
 	width: 350px;
 }

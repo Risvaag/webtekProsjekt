@@ -19,10 +19,7 @@ div.sectiongroup{
 }
 
 #softwarephoto{
-	position: absolute;
-	top: 275px;
-	right: 0px;
-	margin-right: 320px;
+	float: right;
 	width: 250px;
 }
 

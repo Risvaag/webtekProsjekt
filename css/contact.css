@@ -1,3 +1,10 @@
+/*
+FILE NAME: contact.css
+WRITTEN BY: Thomas Skuggevik
+WHEN: November 2015
+PURPOSE: specific styling for contact.html
+*/
+
 body{
   width: 800px;
   margin-top: 120px;
@@ -16,9 +23,10 @@ body{
 
 #manphone {
   float: right;
-  margin-top: -270px;
+  margin-top: -240px;
 }
 
 h3 {
+  padding-top: 20px;
   padding-bottom: 10px;
 }

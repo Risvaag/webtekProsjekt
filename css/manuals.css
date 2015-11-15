@@ -7,13 +7,14 @@ body{
   text-align: center;
 }
 
+h1 {
+  padding-bottom: 20px;
+}
 
 h3{
   padding-bottom: 10px;
   text-align: left;
 }
-
-
 
 div #sectiongroup{
   float: left;
@@ -24,44 +25,7 @@ section{
   text-align: left;
 }
 
-
 #manuals{
-  position: absolute;
-  left:500px;
-  top: 250px;
-  margin-right: 300px;
   width: 400px;
+  float: right;
 }
-
-
-#footer_items li {
-  margin-right: 2px;
-  margin-left: 2px;
-  display: inline;
-}
-
-#footer_items img {
-  width: 30px;
-  height: 30px;
-}
-
-#footer_items ul {
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#footer_items img {
-  vertical-align: middle;
-}
-
-footer {
-  text-align: center;
-  border-top: 5px solid #00a087;
-}
-
-h3 {
-  padding-bottom: 10px;
-}
-
