@@ -15,7 +15,6 @@ var SuckmasterBase = "<p>The low budget AI vacuum, barely smarter than your aver
 
 function addEventListeners()
 {
-	//Change this so it works!
 	document.getElementById("SuckmasterPurchase").addEventListener("click", purchase);
 	document.getElementById("VacutronPurchase").addEventListener("click", purchase);
 	document.getElementById("TerminatorPurchase").addEventListener("click", purchase);
@@ -71,7 +70,7 @@ function reset3()
 function TerminatorShowMore()
 {
 	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>Show less</button><button id='TerminatorPurchase' class='purchaseButton'>Purchase</button>";
-	var input = "<img class='productimg' src='images/product1.jpg' alt='The terminator in all it&#39;s glory'><p>"+" The terminator uses state of the art technology to always find it's way through your home with no issues. It's highly advanced sensors makes it able to adapt to most any challenge on the fly and it's wide arange of actuators ensures it's equiped to deal with anything it may encounter on it's quest to terminate <strike>Sarah Connor</strike> dirt in your home</p>"
+	var input = "<img class='productimg' src='Images/product1.jpg' alt='The terminator in all it&#39;s glory'><p>"+" The terminator uses state of the art technology to always find it's way through your home with no issues. It's highly advanced sensors makes it able to adapt to most any challenge on the fly and it's wide arange of actuators ensures it's equiped to deal with anything it may encounter on it's quest to terminate <strike>Sarah Connor</strike> dirt in your home</p>"
 	document.getElementById("Terminator").innerHTML += input;
 	document.getElementById("TerminatorButton").addEventListener("click", reset1);
 	addEventListeners();
@@ -81,7 +80,7 @@ function TerminatorShowMore()
 function VacutronShowMore()
 {
 	document.getElementById("button2").innerHTML = "<button id=VacutronButton>Show less</button><button id='VacutronPurchase' class='purchaseButton'>Purchase</button>";
-	document.getElementById("Vacutron").innerHTML += "<img class='productimg' src='images/product2.jpg' alt ='The amazing vacutron'><p>While cheaper and less advanced than the terminator the vacutron remains an impressive accomplishment within the field of artificial inteligence. It's sensors and actuators are easily capable of identifying and overcoming most obstacles it may encounter and it's complex dust detection algorithm ensures it will always clean out every last spec of dust in your house.</p>";
+	document.getElementById("Vacutron").innerHTML += "<img class='productimg' src='Images/product2.jpg' alt ='The amazing vacutron'><p>While cheaper and less advanced than the terminator the vacutron remains an impressive accomplishment within the field of artificial inteligence. It's sensors and actuators are easily capable of identifying and overcoming most obstacles it may encounter and it's complex dust detection algorithm ensures it will always clean out every last spec of dust in your house.</p>";
 	document.getElementById("VacutronButton").addEventListener("click", reset2);
 	addEventListeners();
 }
@@ -89,7 +88,7 @@ function VacutronShowMore()
 function SuckmasterShowMore()
 {
 	document.getElementById("button3").innerHTML = "<button id=SuckmasterButton>Show less</button><button id='SuckmasterPurchase' class='purchaseButton'>Purchase</button>";
-	document.getElementById("Suckmaster").innerHTML += "<img class='productimg' src='images/product3.jpg' alt='The suckmaster'> <p>Pretty much as effective as straping a vacuumcleaner to your dog and hoping it will clean your home but you get what you pay for. While it has issues dealing with chairs, walls and other obstacles it can on ocation sufice if the area you seek to clean is flat and contains nothing at all at floor height.</p>";
+	document.getElementById("Suckmaster").innerHTML += "<img class='productimg' src='Images/product3.jpg' alt='The suckmaster'> <p>Pretty much as effective as straping a vacuumcleaner to your dog and hoping it will clean your home but you get what you pay for. While it has issues dealing with chairs, walls and other obstacles it can on ocation sufice if the area you seek to clean is flat and contains nothing at all at floor height.</p>";
 	document.getElementById("SuckmasterButton").addEventListener("click", reset3);
 	addEventListeners();
 }
