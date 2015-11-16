@@ -7,14 +7,6 @@ body{ /*styling for manuals.html -  written by Rebekka Alvsvåg*/
   text-align: center;
 }
 
-h1 {
-  padding-bottom: 20px;
-}
-
-h3{
-  padding-bottom: 10px;
-  text-align: left;
-}
 
 div #sectiongroup{
   float: left;
@@ -25,7 +17,14 @@ section{
   text-align: left;
 }
 
+
 #manuals{
+  position: absolute;
+  left:500px;
+  top: 250px;
+  margin-right: 300px;
   width: 400px;
-  float: right;
 }
+
+
+
