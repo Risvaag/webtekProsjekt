@@ -72,7 +72,7 @@ function TerminatorShowMore()
 	document.getElementById("button1").innerHTML = "<button id=TerminatorButton>Show less</button><button id='TerminatorPurchase' class='purchaseButton'>Purchase</button>";
 	var input = "<p>"+" The terminator uses state of the art technology to always find it's way through your home with no issues. It's highly advanced sensors makes it able to adapt to most any challenge on the fly and it's wide arange of actuators ensures it's equiped to deal with anything it may encounter on it's quest to terminate <strike>Sarah Connor</strike> dirt in your home</p>"
 	var theImage = document.createElement("IMG");
-	theImage.src = "Images/product1.png";
+	theImage.src = "Images/product1.jpg";
 	theImage.setAttribute("class", "productimg");
 	theImage.alt = 'The terminator in all it&#39;s glory'
 	document.getElementById("Terminator").appendChild(theImage);
