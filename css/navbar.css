@@ -1,3 +1,9 @@
+/*
+FILE NAME: navbar.css
+WRITTEN BY: Thomas Skuggevik
+WHEN: November 2015
+PURPOSE: styling for the navbar
+*/
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -51,7 +57,7 @@
   display: list-item;
   list-style-type: none;
 }
-
+/* these are the elements inside the dropdown menu */
 .menu_items li ul li {
   font-size: 90%;
   display: table;
@@ -74,6 +80,7 @@
   text-shadow: 1px 1px grey;
 }
 
+/* highlights the chosen element in the dropdown menu */
 .menu_items li ul li:hover {
   background-color: #00b498;
 }

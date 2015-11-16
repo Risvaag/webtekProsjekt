@@ -17,6 +17,8 @@ PURPOSE: provide contact information as well as a map of where to find the compa
         <script src="javascript/dropdown.js"></script>
 		<title>Contact MS Inc</title>
         <script>
+        ///loads the map after the page has been loaded,
+        ///so as not to interfere with the navbar loading
         addEventListener("load", function() {
             var map = document.getElementById("map");
             console.log(map);
@@ -25,10 +27,10 @@ PURPOSE: provide contact information as well as a map of where to find the compa
         </script>
 	</head>
 
-	
-
     <body>
+
         <div id="navbarslot"></div>
+
     	<h1>Contact Information</h1>
     	<section id="contactinfo">
     		<h3>Ways to reach us</h3>

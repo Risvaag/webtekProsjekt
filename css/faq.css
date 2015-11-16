@@ -1,3 +1,10 @@
+/*
+FILE NAME: faq.css
+WRITTEN BY: Andreas Williams
+WHEN: September 2015
+PURPOSE: stylesheet for the faq page
+*/
+
 body {
 	margin-top: 120px;
 	width: 800px;
@@ -21,10 +28,8 @@ h1 {
 }
 
 #questionmark {
-	position: absolute;
-	top: 275px;
-	left: 750px;
-	margin-top: 10px;
+	float: right;
+	margin-top: -450px;
 	height: 350px;
 	width: 350px;
 }

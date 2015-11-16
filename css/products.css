@@ -1,9 +1,35 @@
-#Terminator, #Vacutron, #Suckmaster, body, h2, button
+#Terminator, #Vacutron, #Suckmaster, h2
 {
-	vertical-align: middle;
 	text-align: left;
-	margin-left: 200px;
-	margin-right: 200px;
+}
+
+body{
+	width: 800px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  text-align: center;
+  font-family: georgia;
+}
+
+button
+{
+	cursor: pointer;
+}
+
+button:active
+{
+	background-color: #CCCCCC;
+}
+
+.purchaseButton
+{
+	background-color: #ffee36;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	-webkit-border-radius:10px;
+	text-shadow:-0.5px 0px 0px #283966;
 }
 
 .productimg
