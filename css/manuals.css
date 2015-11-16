@@ -1,4 +1,7 @@
-body{ /*styling for manuals.html -  written by Rebekka Alvsvåg*/
+/*styling for manuals.html -  written by Rebekka Alvsvåg*/
+
+body{ 
+  
   width: 800px;
   margin-top: 120px;
   margin-left: auto;
@@ -19,10 +22,7 @@ section{
 
 
 #manuals{
-  position: absolute;
-  left:500px;
-  top: 250px;
-  margin-right: 300px;
+  float:right;
   width: 400px;
 }
 
