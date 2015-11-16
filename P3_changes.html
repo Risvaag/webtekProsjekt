@@ -32,6 +32,39 @@
 </section>
 
 
+<h4>Changes made to support_manuals.html:</h4>
+<section id = "manuals">The site is very similar to the mockup-picture. A change is that the picture has a width of 400px instead of 150px. Another change is that the links to the different manuals are represented in a list of the different versions, instead of just a single link.
+It also includes the JavaScript file alertBox.js. It is executed every time a link on the page is clicked, and gives the user a message that the file they are trying to access is currently unavailable. This feature is only added because the company does not exist, and we therefore have no drivers that the links can lead to. However, the links are ready to be used when there is a need. It only needs to have the onclick part in the html removed, and to add a link to where there is now a #.
+</section>
+<h4>Changes made to contact.html:</h4>
+<section id = "contact">The difference from the mockup is very slight, the only real difference is that the google maps API does not fit the width of the page. With a full width map, scrolling to the bottom of the page with a mouse wheel would be more difficult, as when you hit the map it interprets this as zooming out on the map rather than scrolling down.
+</section>
+
+<h4>Changes made to products.html:</h4>
+<section id = "products">Added buttons for reading more about a product to accomodate the read more feature.
+Resized and moved the images into the readmore functionality as the relatively large image seemed out of place next to the shrunken text from the non expanded text.
+The popup functionality was discarded along the way as other functionality was given priority.
+Moved the “purchase” buttons to the center to better match the added “read more” buttons and the removal of the thumbnail from the non-expanded version of the page
+Changed the functionality of the popup window as the lack of a product made the form redundant, the popup now instead informs you that the product is not currently in stock.
+</section>
+
+
+
+
+<h4>Changes to first required javascript navBarRollover.js:</h4>
+<section id = "rollover"> This script was entirely absorbed by the dropdown.js script. We found that separating the scripts for the navbar proved less intuitive when we started to actually implement it, and it was easier to have all the functionality for the dropdown menu in one document.
+</section>
+
+<h4>Changes to second required javascript dropdown.js:</h4>
+<section id = "dropdown">This script absorbed all the functionality of the rollover script, and as such ended up a lot bigger than originally intended. We also ended up using this script for most of the modularity requirements for the site, namely the navbar and the footer. They are set by the functions addNavbar() and addFooter() respectively. In the end we used the dropdown part of the menu for only two pages: support and about. The mocupof the menu shows a dropdown from the menu item "products" with links to each individal product. This was dropped, since not only is there no individual page for each product, but adding them would not improve navigation of the site.
+</section>
+
+<h4>Added homepage.js</h4>
+As stated in the description of homepage.html in the P2 document, "The “read more” link will expand the article to full size and a “less” link will make it small again." This is what homepage.js does. 
+
+
+
+
 <h3>Minimum requirements</h3>
 <section id = "minrq">
 Thomas fulfilled his javascript requirements by implementing the navbar for every page, as well as a rollover effect for the navbar. He implemented dropdown.js, contact.html and contact.css
@@ -43,9 +76,7 @@ Maren has fulfilled her minimum requirements by implementing about.html, softwar
 Rebekka has fulfilled her minimum requirements by implementing manuals.html, employees.html, manuals.css and employees.css.
 <br>
 <br>
-Andreas W has fulfilled his minimum requirments by implementing homepage.html, homepage.css, faq.html, faq.css and devicedetect.js.  Additionally, he wrote and implemented common.css with Thomas. He first wrote footer.html before we decided to implement this universally using JavaScript. This was done by Andreas R.
-
-
+Andreas W has fulfilled his minimum requirments by implementing homepage.html, homepage.css, faq.html, faq.css, devicedetect.js and homepage.js.  Additionally, he wrote and implemented common.css with Thomas. He first wrote footer.html before we decided to implement this universally using JavaScript. This was done by Andreas R.
 </section>
 
 <section id="plan">
