@@ -13,6 +13,25 @@ body{
   font-family: georgia;
 }
 
+button
+{
+	cursor: pointer;
+}
+
+button:active
+{
+	background-color: #CCCCCC;
+}
+
+.purchaseButton
+{
+	background-color: #ffee36;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	-webkit-border-radius:10px;
+	text-shadow:-0.5px 0px 0px #283966;
+}
+
 .productimg
 {
 	width: 200px;
