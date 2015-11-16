@@ -20,24 +20,41 @@
 
 <h4>Universal changes</h4>
 <section id = "universal">We changed the different font sizes due to miscalculations in the mock-up. The new font-sizes are as following:
-	main title - 20 pt, subtitle - 14pt and text - 11pt. This is implemented in a css file named common.css, which all html sites link to. We also simplified the name of all subpages to make it easier for ourselves. Example: support_faq.html changed to faq.html.</section>
-
+	main title - 20 pt, subtitle - 14pt and text - 11pt. This is implemented in a css file named common.css, which all html sites link to. We also simplified the name of all subpages to make it easier for ourselves. Example: support_faq.html changed to faq.html.
+</section>
 
 <h4>Changes made to homepage.html:</h4>
 <section id = "homepage">We changed the two pictures on the front page to a larger size. We chose to do this, as we miscalculated how big it would be on screen. We also noticed a error in the P2 docuement "1. Homepage - homepage.html". In the mock-up picture, it says "picture of product here" and in the text it says "a picture of one the company's headquarter". The correct text is "picture of product" in both instances. 
 </section>
 
-<h4>Changes made to faq.html:</h4>
-<section id = "faq">We changed the filename from support_faq.html to faq.html to make it easier for ourselves and not confuse it with support.html. This goes for all subpages. The page remains very similar to the the mock-up. There's been a slight change to the picture size and the box containing the links to the different questions and themes had to be changed to bigger size to fit all the questions. A link to the support site was added at the bottom of the page. This is convenient for a customer if he or she did not get a proper answer to their question. 
+<h4>Changes made to about.html:</h4>
+<section id = "about">
+This site is very similar to how it was initially planned. The only change is that the two pictures has a width of 300px instead of 550px, and automatic height adjustment instead of 400px.
 </section>
 
+<h4>Changes made to about_employees.html:</h4>
+<section id = "employees">The site is very similar to the mockup-picture. A change is that the picture has a width of 30 percent and automatic height adjustment, instead of 100px width and 160px height. Another change is that all the info about the employees is set to the right of the pictures. The mockup showed the names, titles and work duties without textstyle, but these topics were changed to textstyle bold.
+</section>
+
+<h4>Changes made to contact.html:</h4>
+<section id = "contact">The difference from the mockup is very slight, the only real difference is that the google maps API does not fit the width of the page. With a full width map, scrolling to the bottom of the page with a mouse wheel would be more difficult, as when you hit the map it interprets this as zooming out on the map rather than scrolling down.
+</section>
+
+<h4>Changes made to support.html:</h4>
+<section id = "support">This page is very similar to the mockup-picture. There are some small changes to both the size and placement of the comment box. Instead of being center-aligned, it is now aligned to the left. We also added a name-field and an e-mail field, so that the company have contact information on all customers who send in questions. It is not possible to send in the form without filling out all three fields. 
+</section>
+
+<h4>Changes made to support_software.html:</h4>
+<section id = "software">We have changed the name of this page to software.html. The page is similar to how it was planned, but we added a photo to the right of the page to make it a bit more visually compelling. It also includes the JavaScript file alertBox.js. It is executed every time a link on the page is clicked, and gives the user a message that the file they are trying to access is currently unavailable. This feature is only added because the company does not exist, and we therefore have no drivers that the links can lead to. However, the links are ready to be used when there is a need. It only needs to have the onclick part in the html removed, and to add a link to where there is now a #.
+</section>
 
 <h4>Changes made to support_manuals.html:</h4>
 <section id = "manuals">The site is very similar to the mockup-picture. A change is that the picture has a width of 400px instead of 150px. Another change is that the links to the different manuals are represented in a list of the different versions, instead of just a single link.
 It also includes the JavaScript file alertBox.js. It is executed every time a link on the page is clicked, and gives the user a message that the file they are trying to access is currently unavailable. This feature is only added because the company does not exist, and we therefore have no drivers that the links can lead to. However, the links are ready to be used when there is a need. It only needs to have the onclick part in the html removed, and to add a link to where there is now a #.
 </section>
-<h4>Changes made to contact.html:</h4>
-<section id = "contact">The difference from the mockup is very slight, the only real difference is that the google maps API does not fit the width of the page. With a full width map, scrolling to the bottom of the page with a mouse wheel would be more difficult, as when you hit the map it interprets this as zooming out on the map rather than scrolling down.
+
+<h4>Changes made to support_faq.html:</h4>
+<section id = "faq">We changed the filename from support_faq.html to faq.html to make it easier for ourselves and not confuse it with support.html. This goes for all subpages. The page remains very similar to the the mock-up. There's been a slight change to the picture size and the box containing the links to the different questions and themes had to be changed to bigger size to fit all the questions. A link to the support site was added at the bottom of the page. This is convenient for a customer if he or she did not get a proper answer to their question. 
 </section>
 
 <h4>Changes made to products.html:</h4>
@@ -55,15 +72,42 @@ Changed the functionality of the popup window as the lack of a product made the 
 </section>
 
 <h4>Changes to second required javascript dropdown.js:</h4>
-<section id = "dropdown">This script absorbed all the functionality of the rollover script, and as such ended up a lot bigger than originally intended. We also ended up using this script for most of the modularity requirements for the site, namely the navbar and the footer. They are set by the functions addNavbar() and addFooter() respectively. In the end we used the dropdown part of the menu for only two pages: support and about. The mocupof the menu shows a dropdown from the menu item "products" with links to each individal product. This was dropped, since not only is there no individual page for each product, but adding them would not improve navigation of the site.
+<section id = "dropdown">This script absorbed all the functionality of the rollover script, and as such ended up a lot bigger than originally intended. We also ended up using this script for most of the modularity requirements for the site, namely the navbar and the footer. They are set by the functions addNavbar() and addFooter() respectively. In the end we used the dropdown part of the menu for only two pages: support and about. The mockup of the menu shows a dropdown from the menu item "products" with links to each individal product. This was dropped, since not only is there no individual page for each product, but adding them would not improve navigation of the site.
+</section>
+
+<h4>Changes to third required javascript popupWindow.js:</h4>
+<section id = "popup">We changed the nave of this script to alertBox.js, because we thought this was a more descriptive name for the functionality of the script. This script is largely the same as was intended in the project design phase, except for the fact that it now displays a message that the product is out of stock instead of an order form.
+</section>
+
+<h4>Changes to fourth required javascript deviceDetect.js:</h4>
+<section id = "device">This functions as intended. The mobile user gets a notification upon visiting the homepage that this is not a site designed to be read on a mobile device. </section>
+
+
+
+<h4>Changes to intended CSS styling:</h4>
+<section id = "css">
+	<ul>
+		<li>We changed the colour of the navbar-background from a deep blue to turqouise. This change was made in order to lighten up the colourscheme, which felt a bit dark upon reflecting on it. It was also in line with a more minimalistic approach, since the mockup colour had a shading effect not present in the final navbar. The colour also more accurately reflects the logo and its colours, which was a design goal from day one. </li>
+		<li>Fonts were as mentioned in the universal changes, increased all over. This was a miscalculation we soon discovered and corrected. The original values would have the text on the site appear far too small.</li>
+		<li>A shadow on hover on the links in the navbar that wasn't present in the mockup. The dropdown also has a nice highlight colour now, both of which improve the look and feel of the navbar and provide an easy way of knowing which links are highlighted.</li>
+	</ul>
 </section>
 
 <h4>Added homepage.js</h4>
-As stated in the description of homepage.html in the P2 document, "The “read more” link will expand the article to full size and a “less” link will make it small again." This is what homepage.js does. 
+<section id = "homescript">As stated in the description of homepage.html in the P2 document, "The “read more” link will expand the article to full size and a “less” link will make it small again." This is what homepage.js does. 
+</section>
 
+<h4>Added script.js</h4>
+<section id = "homescript">Functionality for the products.html page. Expands the read more button to reveal a picture and product information, and adds a popup window functionality to the purchase button. 
+</section>
+
+<h4>Modularity requirement</h4>
+<section id = "modularity">
+</section>
 
 
 <section id = "minrq">
+
 <h3>Minimum requirements</h3>
 Thomas fulfilled his javascript requirements by implementing the navbar for every page, as well as a rollover effect for the navbar. He implemented dropdown.js, contact.html and contact.css
 <br>
